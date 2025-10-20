@@ -13,7 +13,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
-const connection = mysql.createConnection({
+const conexion = mysql.createConnection({
   host: 'mysql.railway.internal',
   user: 'root',
   password: 'hKNItKJZqcYdrytxZILfFrISBiRsfpUD',
