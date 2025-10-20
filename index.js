@@ -18,7 +18,7 @@ const connection = mysql.createConnection({
   user: 'root',
   password: 'hKNItKJZqcYdrytxZILfFrISBiRsfpUD',
   database: 'railway',
-  port: '14000'
+  port: '3306'
 });
 
 app.get('/', (req, res) => {
